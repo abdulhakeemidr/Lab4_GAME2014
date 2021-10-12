@@ -302,8 +302,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c27b553dd2caddb40a4fa625dd272786, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletNumber: 0
-  bulletPrefab: {fileID: 7243842656616615942, guid: 13c37e894085c3048ac3472c7f2a871f, type: 3}
+  enemyBulletNumber: 0
+  playerBulletNumber: 0
 --- !u!4 &584965221
 Transform:
   m_ObjectHideFlags: 0
@@ -504,6 +504,10 @@ PrefabInstance:
     - target: {fileID: 8370504188300507922, guid: 1a9fea268805b434c9aedd0393675ced, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370504188300507927, guid: 1a9fea268805b434c9aedd0393675ced, type: 3}
+      propertyPath: frameDelay
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a9fea268805b434c9aedd0393675ced, type: 3}

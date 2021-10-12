@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BulletBehaviour : MonoBehaviour
 {
+    public BulletType type;
+
     [Header("Bullet Movement")]
     [Range(0.0f, 0.5f)]
     public float speed;
@@ -52,14 +54,14 @@ public class BulletBehaviour : MonoBehaviour
         if(transform.position.y < bulletBounds.max)
         {
             // returns the bullet to the cue when it leaves the screen
-            bulletManager.ReturnBullet(this.gameObject);
+            bulletManager.ReturnBullet(this.gameObject, type);
         }
 
         // checks top bounds
         if (transform.position.y > bulletBounds.min)
         {
             // returns the bullet to the cue when it leaves the screen
-            bulletManager.ReturnBullet(this.gameObject);
+            bulletManager.ReturnBullet(this.gameObject, type);
         }
     }
 }

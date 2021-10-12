@@ -194,3 +194,5 @@ MonoBehaviour:
   bounds:
     min: -1.9
     max: 1.9
+  bulletSpawn: {fileID: 1267491854}
+  frameDelay: 5

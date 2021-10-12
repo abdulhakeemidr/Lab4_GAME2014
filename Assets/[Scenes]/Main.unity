@@ -281,6 +281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 584965221}
+  - component: {fileID: 584965222}
   - component: {fileID: 584965220}
   m_Layer: 0
   m_Name: GameController
@@ -317,6 +318,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &584965222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584965219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e445e444bab2ec46a6be1aed6b8be5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 7243842656616615942, guid: 13c37e894085c3048ac3472c7f2a871f, type: 3}
+  playerBullet: {fileID: 7243842656616615942, guid: e3097a69b99fbcf40b57f401bad50db1, type: 3}
 --- !u!1001 &1196121137884730911
 PrefabInstance:
   m_ObjectHideFlags: 0
